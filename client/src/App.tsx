@@ -1,12 +1,11 @@
 import MainLayout from "./components/MainLayout";
+import { ToolProvider } from "./context/ToolContext";
 
 function App() {
-  
-
   return (
-    <div>
+    <ToolProvider>
       <MainLayout />
-    </div>
+    </ToolProvider>
   );
 }
 
